@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eurovision>
+    <drzava_domacin>Nizozemska</drzava_domacin>
+    <grad_domacin>Rotterdam</grad_domacin>
+    <izdanje godina="2020">
+        <sudionik>
+            <drzava>Nizozemska</drzava>
+            <glazbenik vrsta="solo">Jeangu Macrooy</glazbenik>
+            <pjesma>Grow</pjesma>
+            <redni_broj vecer="finale">23.</redni_broj>
+            <tekstopisac>Jeangu Macrooy</tekstopisac>
+            <skladatelj>Jeangu Macrooy, P.L. Perquin</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Albanija</drzava>
+            <glazbenik vrsta="solo">Arilena Ara</glazbenik>
+            <pjesma>Fall From The Sky</pjesma>
+            <redni_broj vecer="polufinale-2">12.</redni_broj>
+            <tekstopisac>Michael Blue, Robert Stevenson, Sam Schummer</tekstopisac>
+            <skladatelj>Darko Dimitrov, Lazar Cvetkoski</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Armenija</drzava>
+            <glazbenik vrsta="solo">Athena Manoukian</glazbenik>
+            <pjesma>Chains On You</pjesma>
+            <redni_broj vecer="polufinale-2">14.</redni_broj>
+            <tekstopisac>Athena Manoukian</tekstopisac>
+            <skladatelj>Athena Manoukian, DJ Paco</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Australija</drzava>
+            <glazbenik vrsta="solo">Montaigne</glazbenik>
+            <pjesma>Don't Break Me</pjesma>
+            <redni_broj vecer="polufinale-1">3.</redni_broj>
+            <tekstopisac>Montaigne, Anthony Egizii, David Musumeci</tekstopisac>
+            <skladatelj>Montaigne, Anthony Egizii, David Musumeci</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Austrija</drzava>
+            <glazbenik vrsta="solo">Vincent Bueno</glazbenik>
+            <pjesma>Alive</pjesma>
+            <redni_broj vecer="polufinale-2">3.</redni_broj>
+            <tekstopisac>Vincent Bueno</tekstopisac>
+            <skladatelj>Vincent Bueno, David "Davey" Yang, Felix van Göns, Artur Aigner</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Azerbajdžan</drzava>
+            <glazbenik vrsta="solo">Efendi</glazbenik>
+            <pjesma>Cleopatra</pjesma>
+            <redni_broj vecer="polufinale-1">12.</redni_broj>
+            <tekstopisac>Luuk van Beers, Alan Roy Scott, Sarah Lake</tekstopisac>
+            <skladatelj>Luuk van Beers, Alan Roy Scott, Sarah Lake</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Bjelorusija</drzava>
+            <glazbenik vrsta="duo">VAL</glazbenik>
+            <pjesma>Da Vidna</pjesma>
+            <redni_broj vecer="polufinale-1">2.</redni_broj>
+            <tekstopisac>Mikita Naidzenau</tekstopisac>
+            <skladatelj>Vladislav Pashkevich, Valeria Gribusova</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Belgija</drzava>
+            <glazbenik vrsta="grupa">Hooverphonic</glazbenik>
+            <pjesma>Release Me</pjesma>
+            <redni_broj vecer="polufinale-1">9.</redni_broj>
+            <tekstopisac>Alex Callier</tekstopisac>
+            <skladatelj>Alex Callier, Luca Chiaravalli</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Bugarska</drzava>
+            <glazbenik vrsta="solo">VICTORIA</glazbenik>
+            <pjesma>Tears Getting Sober</pjesma>
+            <redni_broj vecer="polufinale-2">17.</redni_broj>
+            <tekstopisac>Victoria Georgieva, Borislav Milanov, Lukas Oscar Janisch</tekstopisac>
+            <skladatelj>Victoria Georgieva, Borislav Milanov, Lukas Oskar Janisch, Cornelia Wiebols</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Hrvatska</drzava>
+            <glazbenik vrsta="solo">Damir Kedžo</glazbenik>
+            <pjesma>Divlji Vjetre</pjesma>
+            <redni_broj vecer="polufinale-1">11.</redni_broj>
+            <tekstopisac>Ante Pecotić</tekstopisac>
+            <skladatelj>Ante Pecotić</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Cipar</drzava>
+            <glazbenik vrsta="solo">Sandro</glazbenik>
+            <pjesma>Running</pjesma>
+            <redni_broj vecer="polufinale-1">13.</redni_broj>
+            <tekstopisac>Alfie Arcuri, Sebastian Rickards, Octavian Rasinariu, Sandro</tekstopisac>
+            <skladatelj>Alfie Arcuri, Sebastian Rickards, Octavian Rasinariu, Sandro, Teo DK</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Češka</drzava>
+            <glazbenik vrsta="solo">Benny Cristo</glazbenik>
+            <pjesma>Kemama</pjesma>
+            <redni_broj vecer="polufinale-2">6.</redni_broj>
+            <tekstopisac>Ben Cristovao, Charles Sarpong</tekstopisac>
+            <skladatelj>Osama Hussain, Rudy Ray, Filip Zangi</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Danska</drzava>
+            <glazbenik vrsta="duo">Ben &#038; Tan</glazbenik>
+            <pjesma>YES</pjesma>
+            <redni_broj vecer="polufinale-2">11.</redni_broj>
+            <tekstopisac>Emil Adler Lei, Jimmy Jansson, Linnea Deb</tekstopisac>
+            <skladatelj>Emil Adler Lei, Jimmy Jansson, Linnea Deb</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Estonija</drzava>
+            <glazbenik vrsta="solo">Uku Suviste</glazbenik>
+            <pjesma>What Love Is</pjesma>
+            <redni_broj vecer="polufinale-2">2.</redni_broj>
+            <tekstopisac>Sharon Vaughn</tekstopisac>
+            <skladatelj>Uku Suviste</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Finska</drzava>
+            <glazbenik vrsta="solo">Aksel</glazbenik>
+            <pjesma>Looking Back</pjesma>
+            <redni_broj vecer="polufinale-2">13.</redni_broj>
+            <tekstopisac>Joonas Angeria, Whitney Phillips, Connor McDonough, Riley McDonough, Toby McDonough</tekstopisac>
+            <skladatelj>Joonas Angeria, Whitney Phillips, Connor McDonough, Riley McDonough, Toby McDonough</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Francuska</drzava>
+            <glazbenik vrsta="solo">Tom Leeb</glazbenik>
+            <pjesma>Mon Alliée (The Best In Me)</pjesma>
+            <tekstopisac>Peter Boström, Thomas G:son, John Lundvik, Tom Leeb, Amir Haddad, Lea Ivanne</tekstopisac>
+            <skladatelj>Peter Boström, Thomas G:son, John Lundvik</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Gruzija</drzava>
+            <glazbenik vrsta="solo">Tornike Kipiani</glazbenik>
+            <pjesma>Take Me As I Am</pjesma>
+            <redni_broj vecer="polufinale-2">16.</redni_broj>
+            <tekstopisac>Tornike Kipiani</tekstopisac>
+            <skladatelj>Tornike Kipiani</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Njemačka</drzava>
+            <glazbenik vrsta="solo">Ben Dolić</glazbenik>
+            <pjesma>Violent Thing</pjesma>
+            <tekstopisac>Borislav Milanov, Peter St. James, Dag Lundberg</tekstopisac>
+            <skladatelj>Borislav Milanov, Peter St. James, Dag Lundberg, Jimmy Thorén, Connor Martin</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Grčka</drzava>
+            <glazbenik vrsta="solo">Stefania</glazbenik>
+            <pjesma>SUPERG!RL</pjesma>
+            <redni_broj vecer="polufinale-2">1.</redni_broj>
+            <tekstopisac>Dimίtris Kontόpoulos, Arcade, Sharon Vaughn</tekstopisac>
+            <skladatelj>Dimίtris Kontόpoulos, Arcade</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Island</drzava>
+            <glazbenik vrsta="grupa">Daði og Gagnamagnið</glazbenik>
+            <pjesma>Think About Things</pjesma>
+            <redni_broj vecer="polufinale-2">9.</redni_broj>
+            <tekstopisac>Daði Freyr</tekstopisac>
+            <skladatelj>Daði Freyr</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Irska</drzava>
+            <glazbenik vrsta="solo">Lesley Roy</glazbenik>
+            <pjesma>Story Of My Life</pjesma>
+            <redni_broj vecer="polufinale-1">7.</redni_broj>
+            <tekstopisac>Lesley Roy, Catt Gravitt, Tom Shapiro</tekstopisac>
+            <skladatelj>Lesley Roy, Robert Marvin, Catt Gravitt, Tom Shapiro</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Izrael</drzava>
+            <glazbenik vrsta="solo">Eden Alene</glazbenik>
+            <pjesma>Feker Libi</pjesma>
+            <redni_broj vecer="polufinale-1">15.</redni_broj>
+            <tekstopisac>Doron Medalie, Idan Raichel</tekstopisac>
+            <skladatelj>Doron Medalie, Idan Raichel</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Italija</drzava>
+            <glazbenik vrsta="solo">Diodato</glazbenik>
+            <pjesma>Fai Rumore</pjesma>
+            <tekstopisac>Antonio Diodato</tekstopisac>
+            <skladatelj>Antonio Diodato, Edwyn Roberts</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Latvija</drzava>
+            <glazbenik vrsta="solo">Samanta Tina</glazbenik>
+            <pjesma>Still Breathing</pjesma>
+            <redni_broj vecer="polufinale-2">18.</redni_broj>
+            <tekstopisac>Aminata Savadogo</tekstopisac>
+            <skladatelj>Samanta Tina</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Litva</drzava>
+            <glazbenik vrsta="grupa">The Roop</glazbenik>
+            <pjesma>On Fire</pjesma>
+            <redni_broj vecer="polufinale-1">6.</redni_broj>
+            <tekstopisac>Vaidotas Valiukevičius</tekstopisac>
+            <skladatelj>Vaidotas Valiukevičius, Robertas Baranauskas, Mantas Banišauskas</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Malta</drzava>
+            <glazbenik vrsta="solo">Destiny</glazbenik>
+            <pjesma>All Of My Love</pjesma>
+            <redni_broj vecer="polufinale-1">10.</redni_broj>
+            <tekstopisac>Bernarda Brunovic, Borislav Milanov, Sebastian Arman, Dag Lundberg, Joacim Persson</tekstopisac>
+            <skladatelj>Bernarda Brunovic, Borislav Milanov, Sebastian Arman, Dag Lundberg, Joacim Persson, Cesár Sampson</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Moldavija</drzava>
+            <glazbenik vrsta="solo">Natalia Gordienko</glazbenik>
+            <pjesma>Prison</pjesma>
+            <redni_broj vecer="polufinale-2">4.</redni_broj>
+            <tekstopisac>Sharon Vaughn</tekstopisac>
+            <skladatelj>Dimitris Kontopoulos, Phillip Kirkorov</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Makedonija</drzava>
+            <glazbenik vrsta="solo">Vasil</glazbenik>
+            <pjesma>You</pjesma>
+            <redni_broj vecer="polufinale-1">4.</redni_broj>
+            <tekstopisac>Nevena Neskoska, Kalina Neskoska, Alice Schroeder</tekstopisac>
+            <skladatelj>Nevena Neskoska</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Norveška</drzava>
+            <glazbenik vrsta="solo">Urlikke</glazbenik>
+            <pjesma>Attention</pjesma>
+            <redni_broj vecer="polufinale-1">14.</redni_broj>
+            <tekstopisac>Kjetil Mørland, Christian Ingebrigtsen, Ulrikke Brandstorp</tekstopisac>
+            <skladatelj>Kjetil Mørland, Christian Ingebrigtsen, Ulrikke Brandstorp</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Poljska</drzava>
+            <glazbenik vrsta="solo">Alicja</glazbenik>
+            <pjesma>Empires</pjesma>
+            <redni_broj vecer="polufinale-2">8.</redni_broj>
+            <tekstopisac>Patryk Kumor, Dominic Buczkowski-Wojtaszek, Laurell Barker, Frazer Mac</tekstopisac>
+            <skladatelj>Fraser Mac, Patryk Kumor, Dominic Buczkowski-Wojtaszek, Laurell Barker, Reece Pullinger, Maria Broberg</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Rumunjska</drzava>
+            <glazbenik vrsta="solo">ROXEN</glazbenik>
+            <pjesma>Alcohol You</pjesma>
+            <redni_broj vecer="polufinale-1">16.</redni_broj>
+            <tekstopisac>Ionuţ Armaş, Breyan Isaac</tekstopisac>
+            <skladatelj>Ionuţ Armaş, Viky Red</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Rusija</drzava>
+            <glazbenik vrsta="grupa">Little Big</glazbenik>
+            <pjesma>Uno</pjesma>
+            <redni_broj vecer="polufinale-1">8.</redni_broj>
+            <tekstopisac>Little Big</tekstopisac>
+            <skladatelj>Little Big</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>San Marino</drzava>
+            <glazbenik vrsta="solo">Senhit</glazbenik>
+            <pjesma>Freaky</pjesma>
+            <redni_broj vecer="polufinale-2">5.</redni_broj>
+            <tekstopisac>Gianluigi Fazio, Henrik Steen, Nanna Bottos</tekstopisac>
+            <skladatelj>Gianluigi Fazio, Henrik Steen, Nanna Bottos</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Srbija</drzava>
+            <glazbenik vrsta="grupa">Hurricane</glazbenik>
+            <pjesma>Hasta La Vista</pjesma>
+            <redni_broj vecer="polufinale-2">7.</redni_broj>
+            <tekstopisac>Kosana Stojić, Sanja Vučić</tekstopisac>
+            <skladatelj>Nemanja Antonić</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Slovenija</drzava>
+            <glazbenik vrsta="solo">Ana Soklić</glazbenik>
+            <pjesma>Voda</pjesma>
+            <redni_broj vecer="polufinale-1">5.</redni_broj>
+            <tekstopisac>Ana Soklić</tekstopisac>
+            <skladatelj>Ana Soklič, Bojan Simončič, Žiga Pirnat</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Španjolska</drzava>
+            <glazbenik vrsta="solo">Blas Cantó</glazbenik>
+            <pjesma>Universo</pjesma>
+            <tekstopisac>Blas Cantó, Dan Hammond</tekstopisac>
+            <skladatelj>Blas Cantó, Dan Hammond, Ash Hicklin, Mikolaj Trybulec, Dangelo Ortega</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Švedska</drzava>
+            <glazbenik vrsta="grupa">The Mamas</glazbenik>
+            <pjesma>Move</pjesma>
+            <redni_broj vecer="polufinale-1">1.</redni_broj>
+            <tekstopisac>Herman Gardarfve, Melanie Wehbe, Patrik Jean</tekstopisac>
+            <skladatelj>Herman Gardarfve, Melanie Wehbe, Patrik Jean</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Švicarska</drzava>
+            <glazbenik vrsta="solo">Gjon's Tears</glazbenik>
+            <pjesma>Répondez-moi</pjesma>
+            <redni_broj vecer="polufinale-2">10.</redni_broj>
+            <tekstopisac>Gjon Muharremaj, Alizé Oswald, Xavier Michel, Jeroen Swinnen</tekstopisac>
+            <skladatelj>Gjon Muharremaj, Alizé Oswald, Xavier Michel, Jeroen Swinnen</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Ukrajina</drzava>
+            <glazbenik vrsta="grupa">Go_A</glazbenik>
+            <pjesma>Solovey</pjesma>
+            <redni_broj vecer="polufinale-1">17.</redni_broj>
+            <tekstopisac>Kateryna Pavlenko</tekstopisac>
+            <skladatelj>Taras Shevchenko, Kateryna Pavlenko</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Ujedinjeno Kraljevstvo</drzava>
+            <glazbenik vrsta="solo">James Newman</glazbenik>
+            <pjesma>My Last Breath</pjesma>
+            <tekstopisac>James Newman, Adam Argyle, Ed Drewett, Iain James</tekstopisac>
+            <skladatelj>James Newman, Adam Argyle, Ed Drewett, Iain James</skladatelj>
+        </sudionik>
+    </izdanje>
+    <drzava_domacin>Izrael</drzava_domacin>
+    <grad_domacin>Tel Aviv</grad_domacin>
+    <izdanje godina="2019">
+        <sudionik>
+            <drzava>Izrael</drzava>
+            <glazbenik vrsta="solo">Kobi Marimi</glazbenik>
+            <pjesma>Home</pjesma>
+            <redni_broj vecer="finale">14.</redni_broj>
+            <plasman vecer="finale">23.</plasman>
+            <bodova vecer="finale">35</bodova>
+            <tekstopisac>Inbar Wizman, Ohad Shragai</tekstopisac>
+            <skladatelj>Inbar Wizman, Ohad Shragai</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Albanija</drzava>
+            <glazbenik vrsta="solo">Jonida Maliqi</glazbenik>
+            <pjesma>Ktheju tokës</pjesma>
+            <redni_broj vecer="polufinale-2">14.</redni_broj>
+            <plasman vecer="polufinale-2">9.</plasman>
+            <bodova vecer="polufinale-2">96</bodova>
+            <redni_broj vecer="finale">2.</redni_broj>
+            <plasman vecer="finale">17.</plasman>
+            <bodova vecer="finale">90</bodova>
+            <tekstopisac>Eriona Rushiti</tekstopisac>
+            <skladatelj>Eriona Rushiti</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Armenija</drzava>
+            <glazbenik vrsta="solo">Srbuk</glazbenik>
+            <pjesma>Walking Out</pjesma>
+            <redni_broj vecer="polufinale-2">1.</redni_broj>
+            <plasman vecer="polufinale-2">16.</plasman>
+            <bodova vecer="polufinale-2">49</bodova>
+            <tekstopisac>Garik Papoyan</tekstopisac>
+            <skladatelj>Lost Capital, tokionine</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Australija</drzava>
+            <glazbenik vrsta="solo">Kate Miller-Heidke</glazbenik>
+            <pjesma>Zero Gravity</pjesma>
+            <redni_broj vecer="polufinale-1">12.</redni_broj>
+            <plasman vecer="polufinale-1">1.</plasman>
+            <bodova vecer="polufinale-1">261</bodova>
+            <redni_broj vecer="finale">25.</redni_broj>
+            <plasman vecer="finale">9.</plasman>
+            <bodova vecer="finale">284</bodova>
+            <tekstopisac>Kate Miller-Heidke, Keir Nuttall</tekstopisac>
+            <skladatelj>Kate Miller-Heidke, Keir Nuttall, Julian Hamilton</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Austrija</drzava>
+            <glazbenik vrsta="solo">PÆNDA</glazbenik>
+            <pjesma>Limits</pjesma>
+            <redni_broj vecer="polufinale-2">14.</redni_broj>
+            <plasman vecer="polufinale-2">17.</plasman>
+            <bodova vecer="polufinale-2">21</bodova>
+            <tekstopisac>PÆNDA</tekstopisac>
+            <skladatelj>PÆNDA</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Azerbajdžan</drzava>
+            <glazbenik vrsta="solo">Chingiz</glazbenik>
+            <pjesma>Truth</pjesma>
+            <redni_broj vecer="polufinale-2">18.</redni_broj>
+            <plasman vecer="polufinale-2">5.</plasman>
+            <bodova vecer="polufinale-2">224</bodova>
+            <redni_broj vecer="finale">20.</redni_broj>
+            <plasman vecer="finale">8.</plasman>
+            <bodova vecer="finale">302</bodova>
+            <tekstopisac>Borislav Milanov, Trey Campbell, Bo J, Hostess</tekstopisac>
+            <skladatelj>Borislav Milanov, Trey Campbell, Bo J, Pablo Dinero, Hostess and Chingiz</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Bjelorusija</drzava>
+            <glazbenik vrsta="solo">ZENA</glazbenik>
+            <pjesma>Like It</pjesma>
+            <redni_broj vecer="polufinale-1">8.</redni_broj>
+            <plasman vecer="polufinale-1">10.</plasman>
+            <bodova vecer="polufinale-1">122</bodova>
+            <redni_broj vecer="finale">19.</redni_broj>
+            <plasman vecer="finale">24.</plasman>
+            <bodova vecer="finale">31</bodova>
+            <tekstopisac>Yuliya Kireyeva</tekstopisac>
+            <skladatelj>Yuliya Kireyeva, Victor Drobysh</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Belgija</drzava>
+            <glazbenik vrsta="solo">Eliot</glazbenik>
+            <pjesma>Wake Up</pjesma>
+            <redni_broj vecer="polufinale-1">10.</redni_broj>
+            <plasman vecer="polufinale-1">13.</plasman>
+            <bodova vecer="polufinale-1">70</bodova>
+            <tekstopisac>Pierre Dumoulin, Eliot Vassamillet</tekstopisac>
+            <skladatelj>Pierre Dumoulin, Eliot Vassamillet</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Hrvatska</drzava>
+            <glazbenik vrsta="solo">Roko</glazbenik>
+            <pjesma>The Dream</pjesma>
+            <redni_broj vecer="polufinale-2">10.</redni_broj>
+            <plasman vecer="polufinale-2">14.</plasman>
+            <bodova vecer="polufinale-2">64</bodova>
+            <tekstopisac>Jacques Houdek, Charlie Mason, Andrea Čubrić</tekstopisac>
+            <skladatelj>Jacques Houdek</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Cipar</drzava>
+            <glazbenik vrsta="solo">Tamta</glazbenik>
+            <pjesma>Replay</pjesma>
+            <redni_broj vecer="polufinale-1">1.</redni_broj>
+            <plasman vecer="polufinale-1">9.</plasman>
+            <bodova vecer="polufinale-1">149</bodova>
+            <redni_broj vecer="finale">11.</redni_broj>
+            <plasman vecer="finale">13.</plasman>
+            <bodova vecer="finale">109</bodova>
+            <tekstopisac>Alex Papaconstantinou, Teddy Sky, Viktor Svensson, Albin Nedler, Kristoffer Fogelmark</tekstopisac>
+            <skladatelj>Alex Papaconstantinou, Teddy Sky, Viktor Svensson, Albin Nedler, Kristoffer Fogelmark</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Češka</drzava>
+            <glazbenik vrsta="grupa">Lake Malawi</glazbenik>
+            <pjesma>Friend of a Friend</pjesma>
+            <redni_broj vecer="polufinale-1">6.</redni_broj>
+            <plasman vecer="polufinale-1">2.</plasman>
+            <bodova vecer="polufinale-1">242</bodova>
+            <redni_broj vecer="finale">3.</redni_broj>
+            <plasman vecer="finale">11.</plasman>
+            <bodova vecer="finale">157</bodova>
+            <tekstopisac>Jan Steinsdoerfer, Maciej Mikolaj Trybulec, Albert Černý</tekstopisac>
+            <skladatelj>Jan Steinsdoerfer, Maciej Mikolaj Trybulec, Albert Černý</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Danska</drzava>
+            <glazbenik vrsta="solo">Leonora</glazbenik>
+            <pjesma>Love Is Forever</pjesma>
+            <redni_broj vecer="polufinale-2">7.</redni_broj>
+            <plasman vecer="polufinale-2">10.</plasman>
+            <bodova vecer="polufinale-2">94</bodova>
+            <redni_broj vecer="finale">6.</redni_broj>
+            <plasman vecer="finale">12.</plasman>
+            <bodova vecer="finale">120</bodova>
+            <tekstopisac>Lise Cabble, Melanie Wehbe, Emil Lei</tekstopisac>
+            <skladatelj>Lise Cabble, Melanie Wehbe, Emil Lei</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Estonija</drzava>
+            <glazbenik vrsta="solo">Victor Crone</glazbenik>
+            <pjesma>Storm</pjesma>
+            <redni_broj vecer="polufinale-1">14.</redni_broj>
+            <plasman vecer="polufinale-1">4.</plasman>
+            <bodova vecer="polufinale-1">198</bodova>
+            <redni_broj vecer="finale">18.</redni_broj>
+            <plasman vecer="finale">20.</plasman>
+            <bodova vecer="finale">76</bodova>
+            <tekstopisac>Stig Rästa, Victor Crone, Fred Krieger</tekstopisac>
+            <skladatelj>Stig Rästa, Vallo Kikas, Victor Crone, Sebastian Lestapier</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Finska</drzava>
+            <glazbenik vrsta="duo">Darude feat. Sebastian Rejman</glazbenik>
+            <pjesma>Look Away</pjesma>
+            <redni_broj vecer="polufinale-1">3.</redni_broj>
+            <plasman vecer="polufinale-1">17.</plasman>
+            <bodova vecer="polufinale-1">23</bodova>
+            <tekstopisac>Sebastian Rejman &#038; Ville Virtanen</tekstopisac>
+            <skladatelj>Sebastian Rejman &#038; Ville Virtanen</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Francuska</drzava>
+            <glazbenik vrsta="solo">Bilal Hassani</glazbenik>
+            <pjesma>Roi</pjesma>
+            <redni_broj vecer="finale">21.</redni_broj>
+            <plasman vecer="finale">16.</plasman>
+            <bodova vecer="finale">105</bodova>
+            <tekstopisac>Emilie Satt, Jean-Karl Lucas</tekstopisac>
+            <skladatelj>Emilie Satt, Jean-Karl Lucas</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Gruzija</drzava>
+            <glazbenik vrsta="solo">Oto Nemsadze</glazbenik>
+            <pjesma>Keep on Going</pjesma>
+            <redni_broj vecer="polufinale-1">11.</redni_broj>
+            <plasman vecer="polufinale-1">14.</plasman>
+            <bodova vecer="polufinale-1">62</bodova>
+            <tekstopisac>Diana Giorgadze</tekstopisac>
+            <skladatelj>Roma Giorgadze</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Njemačka</drzava>
+            <glazbenik vrsta="duo">S!sters</glazbenik>
+            <pjesma>Sister</pjesma>
+            <redni_broj vecer="finale">4.</redni_broj>
+            <plasman vecer="finale">25.</plasman>
+            <bodova vecer="finale">24</bodova>
+            <tekstopisac>Laurell Barker, Tom Oehler, Marine Kaltenbacher, Thomas Stengaard</tekstopisac>
+            <skladatelj>Laurell Barker, Tom Oehler, Marine Kaltenbacher, Thomas Stengaard</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Grčka</drzava>
+            <glazbenik vrsta="solo">Katerine Duska</glazbenik>
+            <pjesma>Better Love</pjesma>
+            <redni_broj vecer="polufinale-1">16.</redni_broj>
+            <plasman vecer="polufinale-1">5.</plasman>
+            <bodova vecer="polufinale-1">185</bodova>
+            <redni_broj vecer="finale">13.</redni_broj>
+            <plasman vecer="finale">21.</plasman>
+            <bodova vecer="finale">74</bodova>
+            <tekstopisac>Katerine Duska, David Sneddon</tekstopisac>
+            <skladatelj>Katerine Duska, Leon of Athens, David Sneddon, Phil Cook</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Mađarska</drzava>
+            <glazbenik vrsta="solo">Joci Pápai</glazbenik>
+            <pjesma>Az én apám</pjesma>
+            <redni_broj vecer="polufinale-1">7.</redni_broj>
+            <plasman vecer="polufinale-1">12.</plasman>
+            <bodova vecer="polufinale-1">97</bodova>
+            <tekstopisac>Ferenc Molnár</tekstopisac>
+            <skladatelj>Joci Pápai, Ferenc Molnár</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Island</drzava>
+            <glazbenik vrsta="grupa">Hatari</glazbenik>
+            <pjesma>Hatrið mun sigra</pjesma>
+            <redni_broj vecer="polufinale-1">13.</redni_broj>
+            <plasman vecer="polufinale-1">3.</plasman>
+            <bodova vecer="polufinale-1">221</bodova>
+            <redni_broj vecer="finale">17.</redni_broj>
+            <plasman vecer="finale">10.</plasman>
+            <bodova vecer="finale">232</bodova>
+            <tekstopisac>Hatari</tekstopisac>
+            <skladatelj>Hatari</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Irska</drzava>
+            <glazbenik vrsta="solo">Sarah McTernan</glazbenik>
+            <pjesma>22</pjesma>
+            <redni_broj vecer="polufinale-2">2.</redni_broj>
+            <plasman vecer="polufinale-2">18.</plasman>
+            <bodova vecer="polufinale-2">16</bodova>
+            <tekstopisac>Janieck van de Polder, Marcia Sondeijker, Roel Rats</tekstopisac>
+            <skladatelj>Janieck van de Polder, Marcia Sondeijker, Roel Rats</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Italija</drzava>
+            <glazbenik vrsta="solo">Mahmood</glazbenik>
+            <pjesma>Soldi</pjesma>
+            <redni_broj vecer="finale">22.</redni_broj>
+            <plasman vecer="finale">2.</plasman>
+            <bodova vecer="finale">472</bodova>
+            <tekstopisac>Dardust, Mahmood</tekstopisac>
+            <skladatelj>Dardust, Mahmood, Charlie Charles</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Latvija</drzava>
+            <glazbenik vrsta="grupa">Carousel</glazbenik>
+            <pjesma>That Night</pjesma>
+            <redni_broj vecer="polufinale-2">5.</redni_broj>
+            <plasman vecer="polufinale-2">15.</plasman>
+            <bodova vecer="polufinale-2">50</bodova>
+            <tekstopisac>Sabīne Žuga</tekstopisac>
+            <skladatelj>Mārcis Vasiļevskis, Sabīne Žuga</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Litva</drzava>
+            <glazbenik vrsta="solo">Jurij Veklenko</glazbenik>
+            <pjesma>Run With The Lions</pjesma>
+            <redni_broj vecer="polufinale-1">12.</redni_broj>
+            <plasman vecer="polufinale-1">11.</plasman>
+            <bodova vecer="polufinale-1">93</bodova>
+            <tekstopisac>Eric Lumiere, Ash Hicklin, Pele Loriano</tekstopisac>
+            <skladatelj>Eric Lumiere, Ash Hicklin, Pele Loriano</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Malta</drzava>
+            <glazbenik vrsta="solo">Michela</glazbenik>
+            <pjesma>Chameleon</pjesma>
+            <redni_broj vecer="polufinale-2">11.</redni_broj>
+            <plasman vecer="polufinale-2">8.</plasman>
+            <bodova vecer="polufinale-2">157</bodova>
+            <redni_broj vecer="finale">1.</redni_broj>
+            <plasman vecer="finale">14.</plasman>
+            <bodova vecer="finale">107</bodova>
+            <tekstopisac>Joacim Perrson, Paula Winger, Borislav Milanov, Johan Alkenäs</tekstopisac>
+            <skladatelj>Joacim Perrson, Paula Winger, Borislav Milanov, Johan Alkenäs</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Moldavija</drzava>
+            <glazbenik vrsta="solo">Anna Odobescu</glazbenik>
+            <pjesma>Stay</pjesma>
+            <redni_broj vecer="polufinale-2">3.</redni_broj>
+            <plasman vecer="polufinale-2">12.</plasman>
+            <bodova vecer="polufinale-2">85</bodova>
+            <tekstopisac>Georgios Kalpakidis, Thomas Reil, Jeppe Reil, Maria Broberg</tekstopisac>
+            <skladatelj>Georgios Kalpakidis, Thomas Reil, Jeppe Reil, Maria Broberg</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Crna Gora</drzava>
+            <glazbenik vrsta="grupa">D Mol</glazbenik>
+            <pjesma>Heaven</pjesma>
+            <redni_broj vecer="polufinale-1">2.</redni_broj>
+            <plasman vecer="polufinale-1">16.</plasman>
+            <bodova vecer="polufinale-1">46</bodova>
+            <tekstopisac>Adis Eminić</tekstopisac>
+            <skladatelj>Dejan Božović</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Makedonija</drzava>
+            <glazbenik vrsta="solo">Tamara Todevska</glazbenik>
+            <pjesma>Proud</pjesma>
+            <redni_broj vecer="polufinale-2">17.</redni_broj>
+            <plasman vecer="polufinale-2">2.</plasman>
+            <bodova vecer="polufinale-2">239</bodova>
+            <redni_broj vecer="finale">8.</redni_broj>
+            <plasman vecer="finale">7.</plasman>
+            <bodova vecer="finale">305</bodova>
+            <tekstopisac>Kosta Petrov, Sanja Popovska</tekstopisac>
+            <skladatelj>Robert Bilbilov, Lazar Cvetkoski, Darko Dimitrov</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Norveška</drzava>
+            <glazbenik vrsta="grupa">KEiiNO</glazbenik>
+            <pjesma>Spirit in the Sky</pjesma>
+            <redni_broj vecer="polufinale-2">15.</redni_broj>
+            <plasman vecer="polufinale-2">7.</plasman>
+            <bodova vecer="polufinale-2">210</bodova>
+            <redni_broj vecer="finale">15.</redni_broj>
+            <plasman vecer="finale">6.</plasman>
+            <bodova vecer="finale">331</bodova>
+            <tekstopisac>Alexander Olsson, Tom Hugo, Fred Buljo, Alexandra Rotan</tekstopisac>
+            <skladatelj>Tom Hugo, Henrik Tala, Fred Buljo, Rüdiger Schramm</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Poljska</drzava>
+            <glazbenik vrsta="grupa">Tulia</glazbenik>
+            <pjesma>Fire of Love (Pali się)</pjesma>
+            <redni_broj vecer="polufinale-1">4.</redni_broj>
+            <plasman vecer="polufinale-1">11.</plasman>
+            <bodova vecer="polufinale-1">120</bodova>
+            <tekstopisac>Allan Rich, Jude Friedman, Sonia Krasny</tekstopisac>
+            <skladatelj>Nadia Dalin</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Portugal</drzava>
+            <glazbenik vrsta="solo">Conan Osiris</glazbenik>
+            <pjesma>Telemóveis</pjesma>
+            <redni_broj vecer="polufinale-1">15.</redni_broj>
+            <plasman vecer="polufinale-1">15.</plasman>
+            <bodova vecer="polufinale-1">51</bodova>
+            <tekstopisac>Conan Osíris</tekstopisac>
+            <skladatelj>Conan Osíris</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Rumunjska</drzava>
+            <glazbenik vrsta="solo">Ester Peony</glazbenik>
+            <pjesma>On a Sunday</pjesma>
+            <redni_broj vecer="polufinale-2">6.</redni_broj>
+            <plasman vecer="polufinale-2">13.</plasman>
+            <bodova vecer="polufinale-2">71</bodova>
+            <tekstopisac>Ioana Victoria Badea</tekstopisac>
+            <skladatelj>Ester Alexandra Creţu, Alexandru Şerbu</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Rusija</drzava>
+            <glazbenik vrsta="solo">Sergey Lazarev</glazbenik>
+            <pjesma>Scream</pjesma>
+            <redni_broj vecer="polufinale-2">13.</redni_broj>
+            <plasman vecer="polufinale-2">6.</plasman>
+            <bodova vecer="polufinale-2">217</bodova>
+            <redni_broj vecer="finale">5.</redni_broj>
+            <plasman vecer="finale">3.</plasman>
+            <bodova vecer="finale">370</bodova>
+            <tekstopisac>Sharon Vaughn, Dimitris Kontopoulos</tekstopisac>
+            <skladatelj>Philip Kirkorov, Dimitris Kontopoulos</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>San Marino</drzava>
+            <glazbenik vrsta="solo">Serhat</glazbenik>
+            <pjesma>Say Na Na Na</pjesma>
+            <redni_broj vecer="polufinale-1">17.</redni_broj>
+            <plasman vecer="polufinale-1">8.</plasman>
+            <bodova vecer="polufinale-1">150</bodova>
+            <redni_broj vecer="finale">7.</redni_broj>
+            <plasman vecer="finale">19.</plasman>
+            <bodova vecer="finale">77</bodova>
+            <tekstopisac>Serhat, Mary Susan Applegate</tekstopisac>
+            <skladatelj>Serhat</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Srbija</drzava>
+            <glazbenik vrsta="solo">Nevena Božović</glazbenik>
+            <pjesma>Kruna</pjesma>
+            <redni_broj vecer="polufinale-1">9.</redni_broj>
+            <plasman vecer="polufinale-1">7.</plasman>
+            <bodova vecer="polufinale-1">156</bodova>
+            <redni_broj vecer="finale">23.</redni_broj>
+            <plasman vecer="finale">18.</plasman>
+            <bodova vecer="finale">89</bodova>
+            <tekstopisac>Nevena Božović</tekstopisac>
+            <skladatelj>Nevena Božović</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Slovenija</drzava>
+            <glazbenik vrsta="duo">Zala Kralj &#038; Gašper Šantl</glazbenik>
+            <pjesma>Sebi</pjesma>
+            <redni_broj vecer="polufinale-1">5.</redni_broj>
+            <plasman vecer="polufinale-1">6.</plasman>
+            <bodova vecer="polufinale-1">167</bodova>
+            <redni_broj vecer="finale">10.</redni_broj>
+            <plasman vecer="finale">15.</plasman>
+            <bodova vecer="finale">105</bodova>
+            <tekstopisac>Zala Kralj &#038; Gašper Šantl</tekstopisac>
+            <skladatelj>Zala Kralj &#038; Gašper Šantl</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Španjolska</drzava>
+            <glazbenik vrsta="solo">Miki</glazbenik>
+            <pjesma>La Venda</pjesma>
+            <redni_broj vecer="finale">26.</redni_broj>
+            <plasman vecer="finale">22.</plasman>
+            <bodova vecer="finale">54</bodova>
+            <tekstopisac>Adrià Salas</tekstopisac>
+            <skladatelj>Adrià Salas</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Švedska</drzava>
+            <glazbenik vrsta="solo">John Lundvik</glazbenik>
+            <pjesma>Too Late For Love</pjesma>
+            <redni_broj vecer="polufinale-2">8.</redni_broj>
+            <plasman vecer="polufinale-2">3.</plasman>
+            <bodova vecer="polufinale-2">238</bodova>
+            <redni_broj vecer="finale">9.</redni_broj>
+            <plasman vecer="finale">5.</plasman>
+            <bodova vecer="finale">334</bodova>
+            <tekstopisac>John Lundvik, Anderz Wrehov, Andreas Stone Johansson</tekstopisac>
+            <skladatelj>John Lundvik, Anderz Wrehov, Andreas Stone Johansson</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Švicarska</drzava>
+            <glazbenik vrsta="solo">Luca Hänni</glazbenik>
+            <pjesma>She Got Me</pjesma>
+            <redni_broj vecer="polufinale-2">4.</redni_broj>
+            <plasman vecer="polufinale-2">4.</plasman>
+            <bodova vecer="polufinale-2">232</bodova>
+            <redni_broj vecer="finale">24.</redni_broj>
+            <plasman vecer="finale">4.</plasman>
+            <bodova vecer="finale">364</bodova>
+            <tekstopisac>Laurell Barker, Mac Frazer, Luca Hänni, Jon Hällgren, Lukas Hällgren</tekstopisac>
+            <skladatelj>Laurell Barker, Mac Frazer, Luca Hänni, Jon Hällgren, Lukas Hällgren</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Nizozemska</drzava>
+            <glazbenik vrsta="solo">Duncan Laurence</glazbenik>
+            <pjesma>Arcade</pjesma>
+            <redni_broj vecer="polufinale-2">16.</redni_broj>
+            <plasman vecer="polufinale-2">1.</plasman>
+            <bodova vecer="polufinale-2">280</bodova>
+            <redni_broj vecer="finale">12.</redni_broj>
+            <plasman vecer="finale">1.</plasman>
+            <bodova vecer="finale">498</bodova>
+            <tekstopisac>Duncan Laurence, Joel Sjöö, Wouter Hardy</tekstopisac>
+            <skladatelj>Duncan Laurence, Joel Sjöö, Wouter Hardy</skladatelj>
+        </sudionik>
+        <sudionik>
+            <drzava>Ujedinjeno Kraljevstvo</drzava>
+            <glazbenik vrsta="solo">Michael Rice</glazbenik>
+            <pjesma>Bigger Than Us</pjesma>
+            <redni_broj vecer="finale">16.</redni_broj>
+            <plasman vecer="finale">26.</plasman>
+            <bodova vecer="finale">11</bodova>
+            <tekstopisac>Laurell Barker, Anna-Klara Folin, John Lundvik, Jonas Thander</tekstopisac>
+            <skladatelj>Laurell Barker, Anna-Klara Folin, John Lundvik, Jonas Thander</skladatelj>
+        </sudionik>
+    </izdanje>
+</eurovision>

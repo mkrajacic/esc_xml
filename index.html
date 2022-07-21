@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <link rel="stylesheet" href="style.css">
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+            </link>
+            <script>
+                function loading() {
+                    var xmlhttp = new XMLHttpRequest();
+                    xmlhttp.open("GET", "eurovision.xml", true);
+                    xmlhttp.send('');
+
+                    ispis = "";
+
+                    xmlhttp.onreadystatechange = function () {
+                        if (xmlhttp.readyState == 4) {
+                            xmlDoc = xmlhttp.responseXML;
+                            
+                            drzave_domacini = xmlDoc.getElementsByTagName("drzava_domacin");
+                            gradovi_domacini = xmlDoc.getElementsByTagName("grad_domacin");
+                            izdanja = xmlDoc.getElementsByTagName("izdanje");
+
+                            for (j = 0; j < gradovi_domacini.length; j++) {
+                                godina = izdanja[j].attributes.getNamedItem("godina").value;
+                                sudionici = izdanja[j].getElementsByTagName("sudionik");
+                                ispis += "<div class='host'>";
+                                ispis += "<h1 id='" + "domacin" + j + "'" + "class='domacin'>" + godina + " - " + gradovi_domacini[j].childNodes[0].nodeValue + ", " + drzave_domacini[j].childNodes[0].nodeValue + "<a href='#' class='natrag'>Natrag</a></h1>";
+                                ispis += "</div>";
+                                ispis += "<div class='grid-container'>";
+
+                                for (u = 0; u < sudionici.length; u++) {
+                                    drzava = sudionici[u].getElementsByTagName("drzava")[0].childNodes[0].nodeValue;
+                                    glazbenik = sudionici[u].getElementsByTagName("glazbenik")[0].childNodes[0].nodeValue;
+                                    pjesma = sudionici[u].getElementsByTagName("pjesma")[0].childNodes[0].nodeValue;
+                                    tekstopisac = sudionici[u].getElementsByTagName("tekstopisac")[0].childNodes[0].nodeValue;
+                                    skladatelj = sudionici[u].getElementsByTagName("skladatelj")[0].childNodes[0].nodeValue;
+
+                                    vrsta_glazbenika = sudionici[u].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta").value;
+
+                                    switch (vrsta_glazbenika) {
+                                        case "solo":
+                                            ispis += "<div class='grid-item'><object style='width: 150px;' onmouseover='hover(this)' onmouseout='hoverundo(this)' data='zastave/" + drzava + ".svg' type='image/svg+xml'></object>" + "<p class='country'>" + drzava + "</p><div class='cont' onclick='pressed(this)'><i class='fas fa-angle-double-down'></i></div>" + "<div class='content'><p>" + "<strong>Glazbenik:</strong><br>" + glazbenik + "<br><br><strong>Pjesma:</strong><br>" + pjesma + "<br><br><strong>Tekstopisac:</strong><br>" + tekstopisac + "<br><br><strong>Skladatelj:</strong><br>" + skladatelj + "<br></p></div></div>";
+                                            break;
+                                        case "duo":
+                                            ispis += "<div class='grid-item'><object style='width: 150px;' onmouseover='hover(this)' onmouseout='hoverundo(this)' data='zastave/" + drzava + ".svg' type='image/svg+xml'></object>" + "<p class='country'>" + drzava + "</p><div class='cont' onclick='pressed(this)'><i class='fas fa-angle-double-down'></i></div>" + "<div class='content' style='background-color:#eaf2ff'><p>" + "<strong>Glazbenik:</strong><br>" + glazbenik + "<br><br><strong>Pjesma:</strong><br>" + pjesma + "<br><br><strong>Tekstopisac:</strong><br>" + tekstopisac + "<br><br><strong>Skladatelj:</strong><br>" + skladatelj + "<br></p></div></div>";
+                                            break;
+                                        case "grupa":
+                                            ispis += "<div class='grid-item'><object style='width: 150px;' onmouseover='hover(this)' onmouseout='hoverundo(this)' data='zastave/" + drzava + ".svg' type='image/svg+xml'></object>" + "<p class='country'>" + drzava + "</p><div class='cont' onclick='pressed(this)'><i class='fas fa-angle-double-down'></i></div>" + "<div class='content' style='background-color:rgb(255 249 239)'><p>" + "<strong>Glazbenik:</strong><br>" + glazbenik + "<br><br><strong>Pjesma:</strong><br>" + pjesma + "<br><br><strong>Tekstopisac:</strong><br>" + tekstopisac + "<br><br><strong>Skladatelj:</strong><br>" + skladatelj + "<br></p></div></div>";
+                                            break;
+                                    }
+
+                                }
+                                ispis += "</div>";
+                            }
+
+                            ispis += "<div class='host'>";
+                            ispis += "<h1 id='rezultati' class='domacin'>Rezultati" + "<a href='#' class='natrag'>Natrag</a></h1>";
+                            ispis += "</div>";
+                            ispis += "<div class='grid-container-table'>";
+
+                            for (v = 0; v < gradovi_domacini.length; v++) {
+                                godina = izdanja[v].attributes.getNamedItem("godina").value;
+                                sudionici = izdanja[v].getElementsByTagName("sudionik");
+                                ispis += "<div class='grid-item'>";
+                                ispis += "<div class='rez'" + v + ">";
+                                ispis += "<h1 id='" + "god" + v + "'" + "class='domacin'>" + "Rezultati " + godina;
+                                ispis += "</div>";
+
+                                ispis += "<h1 class='domacin2'>Prvo polufinale</h1>";
+                                ispis += "<table>";
+                                ispis += "<th>Redni broj</th>";
+                                ispis += "<th>Država</th>";
+                                ispis += "<th>Glazbenik</th>";
+                                ispis += "<th>Pjesma</th>";
+
+                                if (godina == "2019") {
+                                    ispis += "<th>Bodova</th>";
+                                    ispis += "<th>Plasman</th>";
+                                }
+                                else {
+                                    ispis += "<caption><i>Natjecanje se nije održalo</i></caption>";
+                                }
+
+                                for (o = 0; o < sudionici.length; o++) {
+                                    if (sudionici[o].getElementsByTagName("plasman")[0] != null) {
+                                        if (sudionici[o].getElementsByTagName("plasman")[0].attributes.getNamedItem("vecer").value == "polufinale-1") {
+                                            drzava = sudionici[o].getElementsByTagName("drzava")[0].childNodes[0].nodeValue;
+                                            glazbenik = sudionici[o].getElementsByTagName("glazbenik")[0].childNodes[0].nodeValue;
+                                            pjesma = sudionici[o].getElementsByTagName("pjesma")[0].childNodes[0].nodeValue;
+                                            redni_br = sudionici[o].getElementsByTagName("redni_broj")[0].childNodes[0].nodeValue;
+                                            bodova = sudionici[o].getElementsByTagName("bodova")[0].childNodes[0].nodeValue;
+                                            plasman = sudionici[o].getElementsByTagName("plasman")[0].childNodes[0].nodeValue;
+
+                                            if (sudionici[o].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta").value == "duo") {
+                                                ispis += "<tr class='duo'>";
+                                            }
+                                            else if (sudionici[o].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta").value == "grupa") {
+                                                ispis += "<tr class='grupa'>";
+                                            }
+                                            else {
+                                                ispis += "<tr>";
+                                            }
+                                            ispis += "<td>" + redni_br + "</td>";
+                                            ispis += "<td>" + drzava + "</td>";
+                                            ispis += "<td>" + glazbenik + "</td>";
+                                            ispis += "<td>" + pjesma + "</td>";
+                                            ispis += "<td>" + bodova + "</td>";
+                                            ispis += "<td>" + plasman + "</td>";
+                                            ispis += "</tr>";
+                                        }
+                                    }
+                                    else {
+                                        if (sudionici[o].getElementsByTagName("redni_broj")[0] != null) {
+                                            if (sudionici[o].getElementsByTagName("redni_broj")[0].attributes.getNamedItem("vecer").value == "polufinale-1") {
+                                                drzava = sudionici[o].getElementsByTagName("drzava")[0].childNodes[0].nodeValue;
+                                                glazbenik = sudionici[o].getElementsByTagName("glazbenik")[0].childNodes[0].nodeValue;
+                                                pjesma = sudionici[o].getElementsByTagName("pjesma")[0].childNodes[0].nodeValue;
+                                                redni_br = sudionici[o].getElementsByTagName("redni_broj")[0].childNodes[0].nodeValue;
+
+                                                if (sudionici[o].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta").value == "duo") {
+                                                    ispis += "<tr class='duo'>";
+                                                }
+                                                else if (sudionici[o].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta").value == "grupa") {
+                                                    ispis += "<tr class='grupa'>";
+                                                }
+                                                else {
+                                                    ispis += "<tr>";
+                                                }
+                                                ispis += "<td>" + redni_br + "</td>";
+                                                ispis += "<td>" + drzava + "</td>";
+                                                ispis += "<td>" + glazbenik + "</td>";
+                                                ispis += "<td>" + pjesma + "</td>";
+                                                ispis += "</tr>";
+                                            }
+                                        }
+                                    }
+                                }
+                                ispis += "</table>";
+                                ispis += "</div>";
+                            }
+
+                            for (v = 0; v < gradovi_domacini.length; v++) {
+                                godina = izdanja[v].attributes.getNamedItem("godina").value;
+                                sudionici = izdanja[v].getElementsByTagName("sudionik");
+                                ispis += "<div class='grid-item'>";
+
+                                ispis += "<h1 class='domacin2'>Drugo polufinale</h1>";
+                                ispis += "<table>";
+                                ispis += "<th>Redni broj</th>";
+                                ispis += "<th>Država</th>";
+                                ispis += "<th>Glazbenik</th>";
+                                ispis += "<th>Pjesma</th>";
+
+                                if (godina == "2019") {
+                                    ispis += "<th>Bodova</th>";
+                                    ispis += "<th>Plasman</th>";
+                                }
+                                else {
+                                    ispis += "<caption><i>Natjecanje se nije održalo</i></caption>";
+                                }
+
+                                for (o = 0; o < sudionici.length; o++) {
+                                    if (sudionici[o].getElementsByTagName("plasman")[0] != null) {
+                                        if (sudionici[o].getElementsByTagName("plasman")[0].attributes.getNamedItem("vecer").value == "polufinale-2") {
+                                            drzava = sudionici[o].getElementsByTagName("drzava")[0].childNodes[0].nodeValue;
+                                            glazbenik = sudionici[o].getElementsByTagName("glazbenik")[0].childNodes[0].nodeValue;
+                                            pjesma = sudionici[o].getElementsByTagName("pjesma")[0].childNodes[0].nodeValue;
+                                            redni_br = sudionici[o].getElementsByTagName("redni_broj")[0].childNodes[0].nodeValue;
+                                            bodova = sudionici[o].getElementsByTagName("bodova")[0].childNodes[0].nodeValue;
+                                            plasman = sudionici[o].getElementsByTagName("plasman")[0].childNodes[0].nodeValue;
+
+                                            if (sudionici[o].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta").value == "duo") {
+                                                ispis += "<tr class='duo'>";
+                                            }
+                                            else if (sudionici[o].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta").value == "grupa") {
+                                                ispis += "<tr class='grupa'>";
+                                            }
+                                            else {
+                                                ispis += "<tr>";
+                                            }
+                                            ispis += "<td>" + redni_br + "</td>";
+                                            ispis += "<td>" + drzava + "</td>";
+                                            ispis += "<td>" + glazbenik + "</td>";
+                                            ispis += "<td>" + pjesma + "</td>";
+                                            ispis += "<td>" + bodova + "</td>";
+                                            ispis += "<td>" + plasman + "</td>";
+                                            ispis += "</tr>";
+                                        }
+                                    }
+                                    else {
+                                        if (sudionici[o].getElementsByTagName("redni_broj")[0] != null) {
+                                            if (sudionici[o].getElementsByTagName("redni_broj")[0].attributes.getNamedItem("vecer").value == "polufinale-2") {
+                                                drzava = sudionici[o].getElementsByTagName("drzava")[0].childNodes[0].nodeValue;
+                                                glazbenik = sudionici[o].getElementsByTagName("glazbenik")[0].childNodes[0].nodeValue;
+                                                pjesma = sudionici[o].getElementsByTagName("pjesma")[0].childNodes[0].nodeValue;
+                                                redni_br = sudionici[o].getElementsByTagName("redni_broj")[0].childNodes[0].nodeValue;
+
+                                                if (sudionici[o].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta").value == "duo") {
+                                                    ispis += "<tr class='duo'>";
+                                                }
+                                                else if (sudionici[o].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta").value == "grupa") {
+                                                    ispis += "<tr class='grupa'>";
+                                                }
+                                                else {
+                                                    ispis += "<tr>";
+                                                }
+                                                ispis += "<td>" + redni_br + "</td>";
+                                                ispis += "<td>" + drzava + "</td>";
+                                                ispis += "<td>" + glazbenik + "</td>";
+                                                ispis += "<td>" + pjesma + "</td>";
+                                                ispis += "</tr>";
+                                            }
+                                        }
+                                    }
+                                }
+                                ispis += "</table>";
+                                ispis += "</div>";
+                            }
+
+                            for (v = 0; v < gradovi_domacini.length; v++) {
+                                godina = izdanja[v].attributes.getNamedItem("godina").value;
+                                sudionici = izdanja[v].getElementsByTagName("sudionik");
+                                ispis += "<div class='grid-item'>";
+
+                                ispis += "<h1 class='domacin2'>Finale</h1>";
+                                ispis += "<table>";
+                                ispis += "<th>Redni broj</th>";
+                                ispis += "<th>Država</th>";
+                                ispis += "<th>Glazbenik</th>";
+                                ispis += "<th>Pjesma</th>";
+
+                                if (godina == "2019") {
+                                    ispis += "<th>Bodova</th>";
+                                    ispis += "<th>Plasman</th>";
+                                }
+                                else {
+                                    ispis += "<caption><i>Natjecanje se nije održalo</i></caption>";
+                                }
+
+                                for (o = 0; o < sudionici.length; o++) {
+                                    if (sudionici[o].getElementsByTagName("plasman")[0] != null) {
+                                        if (sudionici[o].getElementsByTagName("plasman")[0].attributes.getNamedItem("vecer").value == "finale") {
+                                            drzava = sudionici[o].getElementsByTagName("drzava")[0].childNodes[0].nodeValue;
+                                            glazbenik = sudionici[o].getElementsByTagName("glazbenik")[0].childNodes[0].nodeValue;
+                                            pjesma = sudionici[o].getElementsByTagName("pjesma")[0].childNodes[0].nodeValue;
+                                            redni_br = sudionici[o].getElementsByTagName("redni_broj")[0].childNodes[0].nodeValue;
+                                            bodova = sudionici[o].getElementsByTagName("bodova")[0].childNodes[0].nodeValue;
+                                            plasman = sudionici[o].getElementsByTagName("plasman")[0].childNodes[0].nodeValue;
+
+                                            if (sudionici[o].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta").value == "duo") {
+                                                ispis += "<tr class='duo'>";
+                                            }
+                                            else if (sudionici[o].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta").value == "grupa") {
+                                                ispis += "<tr class='grupa'>";
+                                            }
+                                            else {
+                                                ispis += "<tr>";
+                                            }
+                                            ispis += "<td>" + redni_br + "</td>";
+                                            ispis += "<td>" + drzava + "</td>";
+                                            ispis += "<td>" + glazbenik + "</td>";
+                                            ispis += "<td>" + pjesma + "</td>";
+                                            ispis += "<td>" + bodova + "</td>";
+                                            ispis += "<td>" + plasman + "</td>";
+                                            ispis += "</tr>";
+                                        }
+                                        else if (sudionici[o].getElementsByTagName("plasman")[1] != null) {
+                                            if (sudionici[o].getElementsByTagName("plasman")[1].attributes.getNamedItem("vecer").value == "finale") {
+                                                drzava = sudionici[o].getElementsByTagName("drzava")[0].childNodes[0].nodeValue;
+                                                glazbenik = sudionici[o].getElementsByTagName("glazbenik")[0].childNodes[0].nodeValue;
+                                                pjesma = sudionici[o].getElementsByTagName("pjesma")[0].childNodes[0].nodeValue;
+                                                redni_br = sudionici[o].getElementsByTagName("redni_broj")[1].childNodes[0].nodeValue;
+                                                bodova = sudionici[o].getElementsByTagName("bodova")[1].childNodes[0].nodeValue;
+                                                plasman = sudionici[o].getElementsByTagName("plasman")[1].childNodes[0].nodeValue;
+
+                                                if (sudionici[o].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta").value == "duo") {
+                                                    ispis += "<tr class='duo'>";
+                                                }
+                                                else if (sudionici[o].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta").value == "grupa") {
+                                                    ispis += "<tr class='grupa'>";
+                                                }
+                                                else {
+                                                    ispis += "<tr>";
+                                                }
+                                                ispis += "<td>" + redni_br + "</td>";
+                                                ispis += "<td>" + drzava + "</td>";
+                                                ispis += "<td>" + glazbenik + "</td>";
+                                                ispis += "<td>" + pjesma + "</td>";
+                                                ispis += "<td>" + bodova + "</td>";
+                                                ispis += "<td>" + plasman + "</td>";
+                                                ispis += "</tr>";
+                                            }
+                                        }
+                                    }
+                                    else {
+                                        if (sudionici[o].getElementsByTagName("redni_broj")[0] != null) {
+                                            if (sudionici[o].getElementsByTagName("redni_broj")[0].attributes.getNamedItem("vecer").value == "finale") {
+                                                drzava = sudionici[o].getElementsByTagName("drzava")[0].childNodes[0].nodeValue;
+                                                glazbenik = sudionici[o].getElementsByTagName("glazbenik")[0].childNodes[0].nodeValue;
+                                                pjesma = sudionici[o].getElementsByTagName("pjesma")[0].childNodes[0].nodeValue;
+                                                redni_br = sudionici[o].getElementsByTagName("redni_broj")[0].childNodes[0].nodeValue;
+
+                                                if (sudionici[o].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta").value == "duo") {
+                                                    ispis += "<tr class='duo'>";
+                                                }
+                                                else if (sudionici[o].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta").value == "grupa") {
+                                                    ispis += "<tr class='grupa'>";
+                                                }
+                                                else {
+                                                    ispis += "<tr>";
+                                                }
+                                                ispis += "<td>" + redni_br + "</td>";
+                                                ispis += "<td>" + drzava + "</td>";
+                                                ispis += "<td>" + glazbenik + "</td>";
+                                                ispis += "<td>" + pjesma + "</td>";
+                                                ispis += "</tr>";
+                                            }
+                                        }
+                                        else {
+                                            drzava = sudionici[o].getElementsByTagName("drzava")[0].childNodes[0].nodeValue;
+
+                                            switch (drzava) {
+                                                case "Italija":
+                                                    glazbenik = sudionici[o].getElementsByTagName("glazbenik")[0].childNodes[0].nodeValue;
+                                                    pjesma = sudionici[o].getElementsByTagName("pjesma")[0].childNodes[0].nodeValue;
+                                                    redni_br = "N/A";
+
+                                                    if (sudionici[o].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta").value == "duo") {
+                                                        ispis += "<tr class='duo'>";
+                                                    }
+                                                    else if (sudionici[o].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta").value == "grupa") {
+                                                        ispis += "<tr class='grupa'>";
+                                                    }
+                                                    else {
+                                                        ispis += "<tr>";
+                                                    }
+                                                    ispis += "<td>" + redni_br + "</td>";
+                                                    ispis += "<td>" + drzava + "</td>";
+                                                    ispis += "<td>" + glazbenik + "</td>";
+                                                    ispis += "<td>" + pjesma + "</td>";
+                                                    ispis += "</tr>";
+                                                    break;
+                                                case "Francuska":
+                                                    glazbenik = sudionici[o].getElementsByTagName("glazbenik")[0].childNodes[0].nodeValue;
+                                                    pjesma = sudionici[o].getElementsByTagName("pjesma")[0].childNodes[0].nodeValue;
+                                                    redni_br = "N/A";
+
+                                                    if (sudionici[o].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta".value) == "duo") {
+                                                        ispis += "<tr class='duo'>";
+                                                    }
+                                                    else if (sudionici[o].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta").value == "grupa") {
+                                                        ispis += "<tr class='grupa'>";
+                                                    }
+                                                    else {
+                                                        ispis += "<tr>";
+                                                    }
+                                                    ispis += "<td>" + redni_br + "</td>";
+                                                    ispis += "<td>" + drzava + "</td>";
+                                                    ispis += "<td>" + glazbenik + "</td>";
+                                                    ispis += "<td>" + pjesma + "</td>";
+                                                    ispis += "</tr>";
+                                                    break;
+                                                case "Španjolska":
+                                                    glazbenik = sudionici[o].getElementsByTagName("glazbenik")[0].childNodes[0].nodeValue;
+                                                    pjesma = sudionici[o].getElementsByTagName("pjesma")[0].childNodes[0].nodeValue;
+                                                    redni_br = "N/A";
+
+                                                    if (sudionici[o].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta").value == "duo") {
+                                                        ispis += "<tr class='duo'>";
+                                                    }
+                                                    else if (sudionici[o].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta").value == "grupa") {
+                                                        ispis += "<tr class='grupa'>";
+                                                    }
+                                                    else {
+                                                        ispis += "<tr>";
+                                                    }
+                                                    ispis += "<td>" + redni_br + "</td>";
+                                                    ispis += "<td>" + drzava + "</td>";
+                                                    ispis += "<td>" + glazbenik + "</td>";
+                                                    ispis += "<td>" + pjesma + "</td>";
+                                                    ispis += "</tr>";
+                                                    break;
+                                                case "Ujedinjeno Kraljevstvo":
+                                                    glazbenik = sudionici[o].getElementsByTagName("glazbenik")[0].childNodes[0].nodeValue;
+                                                    pjesma = sudionici[o].getElementsByTagName("pjesma")[0].childNodes[0].nodeValue;
+                                                    redni_br = "N/A";
+
+                                                    if (sudionici[o].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta").value == "duo") {
+                                                        ispis += "<tr class='duo'>";
+                                                    }
+                                                    else if (sudionici[o].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta").value == "grupa") {
+                                                        ispis += "<tr class='grupa'>";
+                                                    }
+                                                    else {
+                                                        ispis += "<tr>";
+                                                    }
+                                                    ispis += "<td>" + redni_br + "</td>";
+                                                    ispis += "<td>" + drzava + "</td>";
+                                                    ispis += "<td>" + glazbenik + "</td>";
+                                                    ispis += "<td>" + pjesma + "</td>";
+                                                    ispis += "</tr>";
+                                                    break;
+                                                case "Njemačka":
+                                                    glazbenik = sudionici[o].getElementsByTagName("glazbenik")[0].childNodes[0].nodeValue;
+                                                    pjesma = sudionici[o].getElementsByTagName("pjesma")[0].childNodes[0].nodeValue;
+                                                    redni_br = "N/A";
+
+                                                    if (sudionici[o].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta").value == "duo") {
+                                                        ispis += "<tr class='duo'>";
+                                                    }
+                                                    else if (sudionici[o].getElementsByTagName("glazbenik")[0].attributes.getNamedItem("vrsta").value == "grupa") {
+                                                        ispis += "<tr class='grupa'>";
+                                                    }
+                                                    else {
+                                                        ispis += "<tr>";
+                                                    }
+                                                    ispis += "<td>" + redni_br + "</td>";
+                                                    ispis += "<td>" + drzava + "</td>";
+                                                    ispis += "<td>" + glazbenik + "</td>";
+                                                    ispis += "<td>" + pjesma + "</td>";
+                                                    ispis += "</tr>";
+                                                    break;
+                                            }
+
+                                        }
+                                    }
+                                }
+                                ispis += "</table>";
+                                ispis += "</div>";
+                            }
+
+                            //end
+                            ispis += "</div>";
+                        }
+                        document.getElementById("ispis").innerHTML = ispis;
+                    }
+                }
+
+                window.onload = loading();
+
+            </script>
+        </head>
+
+        <body>
+            <div id="header">
+                <nav class="menu">
+                    <li class="menu-item" style="float:left">
+                        <a href="#">Eurovision Song Contest</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#rezultati">Rezultati</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#domacin1">Sudionici 2019</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#domacin0">Sudionici 2020</a>
+                    </li>
+                </nav>
+            </div>
+
+            <div id="ispis">
+
+            </div>
+
+            <script>
+                function hover(element) {
+                    element.setAttribute("class", "ani-in");
+                    var doc = element.contentDocument;
+                    var b = doc.querySelectorAll("use");
+
+                    switch (b.length) {
+                        case 2:
+                            var u = doc.getElementsByTagName("use")[1];
+                            u.setAttribute("fill", "#000");
+                            break;
+                        case 3:
+                            var u = doc.getElementsByTagName("use")[2];
+                            u.setAttribute("fill", "#000");
+                            break;
+                        case 4:
+                            var u = doc.getElementsByTagName("use")[3];
+                            u.setAttribute("fill", "#000");
+                            break;
+                    }
+                }
+
+                function hoverundo(element) {
+                    element.setAttribute("class", "ani-out");
+                    var doc = element.contentDocument;
+                    var b = doc.querySelectorAll("use");
+
+                    switch (b.length) {
+                        case 2:
+                            var u = doc.getElementsByTagName("use")[1];
+                            u.setAttribute("fill", "#FFF");
+                            break;
+                        case 3:
+                            var u = doc.getElementsByTagName("use")[2];
+                            u.setAttribute("fill", "#FFF");
+                            break;
+                        case 4:
+                            var u = doc.getElementsByTagName("use")[3];
+                            u.setAttribute("fill", "#FFF");
+                            break;
+                    }
+                }
+
+                function pressed(element) {
+                    var content = element.nextElementSibling;
+
+                    if (content.style.display === "block") {
+                        content.style.display = "none";
+                    } else {
+                        content.style.display = "block";
+                    }
+
+                    if (content.style.maxHeight) {
+                        content.style.maxHeight = null;
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + "px";
+                    }
+                }
+
+                setTimeout(function () {
+                    var n = document.querySelector("[class='natrag']");
+                    n.style.display = "none";
+                }, 1000);
+
+            </script>
+        </body>
+
+        </html>
